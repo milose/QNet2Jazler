@@ -4,17 +4,16 @@ A simple program to import Song and Artist data from QNet Radio software to Jazl
 
 ## Usage
 
-1. Export the data from QNet Radio to a text file.
+1. Export the data from QNet Radio to a text or excel file.
 2. Export the Jazler RadioStar database to a .mdb file.
 3. Open the Jazler database with Microsoft Access and import the QNet text file to a \_qnet table.
 4. Compile the QNet2Jazler .NET executable with Visual Studio
 5. Run the executable from command line: `QNet2Jazler.exe DATABASE.MDB`
 6. Remove the \_qnet table.
-7. Optionally compact the database from Microsoft Access.
+7. Optionally compact the database from Microsoft Access' Database Tools
 
 ## Todo
 
-- Ability to import TAB delimitered data to avoid the need for Microsoft Access and the \_qnet table.
 - Create a collection of QNet objects instead of DataTable.
 
 ## License (MIT)
